@@ -8,7 +8,7 @@ $headerpadding:90px;
     color: white;
     position: relative;      
     height: 60px;      
-    border: non;     
+    border: none;     
   } 
 h1{
     color: black;
@@ -154,13 +154,12 @@ img{
     position: absolute;
     top: 64%;
     left: 23%;
-  }
-  
+  }  
 .button1 {
     background-color:#C6F2E3;
     border: none;
     color:#46A475;
-    border: 2px solid #C6F2E3;
+    border: 2px solid #C6F2E3;  
   }
   
 .button1:hover {

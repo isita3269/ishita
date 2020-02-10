@@ -1,19 +1,23 @@
 $headerpadding:90px;
+$white:white;
+// $theme:
 *{
-    background-color:#F0F1F2;
+    background-color:#F0F1F2;   
+    margin:0;
+    padding:0; 
 }
 .header{ 
-    background-color: white;
+    background-color:$white;
     padding: $headerpadding;  
-    color: white;
+    color: $white;
     position: relative;      
-    height: 60px;      
+    // height: 29px;      
     border: none;     
   } 
 h1{
     color: black;
     font-family:Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 23%;
     top: 30%;
@@ -22,117 +26,117 @@ h1{
 h6{
     color: #D2D2D2;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 23%;
-    top: 37%;
+    top: 48%;
     font-size: unset;
 }
 .a{
     color: black;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 55%;
-    top: 13%;
+    top: 30%;
     font-weight: unset;
     font-size: x-large;
 }
 .b{
     color: black;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 63%;
-    top: 13%;
+    top: 30%;
     font-weight: unset;
     font-size: x-large;
 }
 .c{
     color: black;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 71%;
-    top: 13%;
+    top: 30%;
     font-weight: unset;
     font-size: x-large;
 }
 .d{
     color: black;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 82%;
-    top: 13%;
+    top: 30%;
     font-weight: unset;
     font-size: x-large;
 }
 .e{
     color: #D6D6D8;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 55%;
-    top: 32%;
+    top: 48%;
     font-weight: unset;
     font-size: unset;
 }
 .f{
     color: #D6D6D8;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 63%;
-    top: 32%;
+    top: 48%;
     font-weight: unset;
     font-size: unset;
 }
 .g{
     color: #D6D6D8;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 71%;
-    top: 32%;
+    top: 48%;
     font-weight: unset;
     font-size: unset;
 }
 .h{
     color: #D6D6D8;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 82%;
-    top: 32%;
+    top: 48%;
     font-weight: unset;
     font-size: unset;
 }
 .i{
     color: black;
     font-family: Poppins;
-    background-color: white;
+    background-color: $white;
     position: absolute;
     left: 84%;
-    top: 33%;
+    top: 36%;
     font-weight: unset;
     font-size: xx-small;
 }
 .medal{
-    position: absolute;
-    left: 77%;
-    top: 34%;
-    height: 22%;
-    width: 5%;
+        position: absolute;
+    left: 78%;
+    top: 31%;
+    height: 4vw;
+    width: 3vw;
     font-weight: unset;
 }
 img{ 
     position: absolute;
     border-radius: 50%;
-    left: 12%;
-    top: 30%;
-    width: 10%;
-    height: 46%;    
+    left: 11%;
+    top: 19%;
+    width: 10vw;
+    height: 10vw;  
 }
 .button {
     background-color: #C6F2E3;
@@ -163,40 +167,39 @@ img{
   }
   
 .button1:hover {
-    background-color: white;
+    background-color: $white;
     color: #46A475;
   }
 .qst {
     background-color: #46A475;
     border: none;
-    color: white;
+    color: $white;
     padding: 3px 3px;
     text-align: center;
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
+    width: 3vw;
+    height: 3vw;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
     font-size: smaller;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s;
+    margin: 4px 2px;    
     transition-duration: 0.4s;
     cursor: pointer;
     position: absolute;
-    top: 32%;
     left: 88%;
+    top: 29%;
   }
   
 .qst1 {
     background-color:#46A475;
     border: none;
-    color:white;
+    color:$white;
     border: 2px solid #46A475;
   }
   
 .qst1:hover {
-    background-color: white;
+    background-color: $white;
     color: #46A475;
   }
 

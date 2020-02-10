@@ -1,5 +1,7 @@
 * {
   background-color: #F0F1F2;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -7,8 +9,7 @@
   padding: 90px;
   color: white;
   position: relative;
-  height: 60px;
-  border: non;
+  border: none;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 23%;
-  top: 37%;
+  top: 48%;
   font-size: unset;
 }
 
@@ -37,7 +38,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 55%;
-  top: 13%;
+  top: 30%;
   font-weight: unset;
   font-size: x-large;
 }
@@ -48,7 +49,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 63%;
-  top: 13%;
+  top: 30%;
   font-weight: unset;
   font-size: x-large;
 }
@@ -59,7 +60,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 71%;
-  top: 13%;
+  top: 30%;
   font-weight: unset;
   font-size: x-large;
 }
@@ -70,7 +71,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 82%;
-  top: 13%;
+  top: 30%;
   font-weight: unset;
   font-size: x-large;
 }
@@ -81,7 +82,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 55%;
-  top: 32%;
+  top: 48%;
   font-weight: unset;
   font-size: unset;
 }
@@ -92,7 +93,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 63%;
-  top: 32%;
+  top: 48%;
   font-weight: unset;
   font-size: unset;
 }
@@ -103,7 +104,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 71%;
-  top: 32%;
+  top: 48%;
   font-weight: unset;
   font-size: unset;
 }
@@ -114,7 +115,7 @@ h6 {
   background-color: white;
   position: absolute;
   left: 82%;
-  top: 32%;
+  top: 48%;
   font-weight: unset;
   font-size: unset;
 }
@@ -125,27 +126,27 @@ h6 {
   background-color: white;
   position: absolute;
   left: 84%;
-  top: 33%;
+  top: 36%;
   font-weight: unset;
   font-size: xx-small;
 }
 
 .medal {
   position: absolute;
-  left: 77%;
-  top: 34%;
-  height: 22%;
-  width: 5%;
+  left: 78%;
+  top: 31%;
+  height: 4vw;
+  width: 3vw;
   font-weight: unset;
 }
 
 img {
   position: absolute;
   border-radius: 50%;
-  left: 12%;
-  top: 30%;
-  width: 10%;
-  height: 46%;
+  left: 11%;
+  top: 19%;
+  width: 10vw;
+  height: 10vw;
 }
 
 .button {
@@ -189,19 +190,19 @@ img {
   padding: 3px 3px;
   text-align: center;
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  width: 3vw;
+  height: 3vw;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
   font-size: smaller;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+          transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
-  top: 32%;
   left: 88%;
+  top: 29%;
 }
 
 .qst1 {
